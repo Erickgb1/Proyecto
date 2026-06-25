@@ -54,7 +54,7 @@ dir=this.txtDir.getText();
 email=this.txtEmail.getText();
 
 
-String senSQL="INSERT INTO agenda(Nombre,Direcccion,Email)VALUES(?,?,?)";
+String senSQL="INSERT INTO agenda(Nombre,Direccion,Email)VALUES(?,?,?)";
 
 comprobacion="Se an guardado sus datos bien";
 
